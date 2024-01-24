@@ -1,6 +1,6 @@
 {
-  "homepage": "http://ihor-software.github.io/website",
-  "name": "ihor-software",
+  "homepage": "http://ihor-software.github.io",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
