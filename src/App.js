@@ -19,7 +19,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Menu />}>
-          <Route index element={<HomePage />} />
+          <Route index path="website" element={<HomePage />} />
           <Route path="applications" element={<ApplicationsPage />} />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="cv" element={<CVPage />} />
