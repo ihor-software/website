@@ -44,7 +44,7 @@ const Menu = () => {
                 <Link to="/cv" className='nav-link'>CV</Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/qualifications" className='nav-link'>Qualifications</Link>
+                <Link to="/qualifications" className='nav-link'>Certifications</Link>
                 </li>
                 <li className="nav-item">
                 <Link to="/privacy" className='nav-link'>Privacy</Link>

@@ -30,7 +30,7 @@ function ContactMePage() {
                         </div>
                         <div class="info_item">
                         <i class="lnr lnr-home"></i>
-                         <h6><a href="https://github.com/vasillyev17">Github</a></h6>
+                         <h6><a href="https://github.com/ihor-software/portfolio">Github</a></h6>
                         </div>
                         <div class="info_item">
                         <i class="lnr lnr-home"></i>

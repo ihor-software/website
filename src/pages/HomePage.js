@@ -35,6 +35,22 @@ function HomePage() {
                 </div>
             </section>
 
+            <section class="services">
+                <div class="services_inner">
+                    <div class="container">
+                    <h2> How can I help you?</h2>
+                      <ul>
+                          <li>Web Development</li>
+                          <li>Mobile Development</li>
+                          <li>Test Coverage</li>
+                          <li>Project Support</li>
+                          <li>Hosting Solutions</li>
+                      </ul>
+                    </div>
+                </div>
+              </section>
+<br/>
+            
             <section class="slider">
                 <div class="slider_inner">
                     <div class="container">
@@ -43,22 +59,27 @@ function HomePage() {
                     </div>
                   </div>
             </section>
+<br/>
+            <section class="aboutme">
+                <div class="container">
+                    <h2>About me:</h2>
+                    <p>Hey, I'm Ihor, a seasoned web developer with expertise in crafting both websites and mobile applications. My professional journey has involved working with high-profile clients in diverse IT environments, where I've thrived under pressure and stringent deadlines, incorporating best coding practices gleaned from those experiences.
 
-            <section class="services">
-                <div class="services_inner">
-                    <div class="container">
-                    <h2> How can I help you?</h2>
-                      <ul>
-                          <li>working with React, Angular</li>
-                          <li>working with api/json, parsing data</li>
-                          <li>sending & recieving requests to database</li>
-                          <li>develop and debug web applications</li>
-                      </ul>
-                    </div>
+I have a robust background, having collaborated with a top-10 global IT company, contributing to the development of new features, enhancing authorization security, and conducting thorough testing. When engaged with clients, I approach projects with meticulous attention to detail, striving to deliver a product that surpasses expectations.
+
+I believe in a friendly and professional collaboration, and I'm eager to discuss how I can contribute to the success of your project. Feel free to reach out, and let's embark on this journey together!</p>
                 </div>
-              </section>
+            </section>
+<br/>
             
-    
+              <section class="value">
+                <div class="container">
+                    <h2>How I work:</h2>
+              One of my key strengths lies in my commitment to high responsibility and maintaining a stable workflow. This dedication ensures a consistently smooth project development process and a reliable, predictable outcome. I prioritize transparent communication, fostering an open dialogue for negotiations before initiating any work. Additionally, I occasionally offer afterpay options, providing flexibility based on the satisfaction of the final result.
+                </div>
+             </section>
+             <br/>
+             <br/>
     <FooterComponent/>
         </div>
       );
