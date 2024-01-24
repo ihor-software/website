@@ -1,0 +1,38 @@
+
+.collapse.show {
+  display: block !important; /* Show the menu */
+}
+
+.navbar-collapse {
+  text-align: center; /* Adjust alignment */
+}
+
+.header_area .navbar {
+  background: #ffffff; }
+
+.home_banner_area {
+  margin-top: 100px;
+}
+
+
+
+.footer_area {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background-image: none !important;
+  background-color: #fcf8ff; }
+
+.btn {
+  margin-right: 5px;
+}
+
+/* Contact me */
+.contact_form {
+    display: flex;
+
+    width: auto;
+}
+
+/* CV */
+
+

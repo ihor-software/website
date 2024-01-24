@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "p1.jpg",
+      "title": "Doctoo Healthcare React project",
+      "description": "health system for hospitals, patients and doctors. Technologies: NodeJS, Express/NestJS, REST, Swagger, React, Tailwind CSS, JWT, PostgreSQL, Docker",
+      "lastUpdated": "September 2023"
+    },
+    {
+      "id": 2,
+      "imageUrl": "p2.jpg",
+      "title": "LinkCollector Swift/SwiftUI Application",
+      "description": "Application for storing and managing internet resources and links. Used firebase, multithreading to provide best user experience in storing most valuable links safely",
+      "lastUpdated": "May 2023"
+    },
+    {
+        "id": 3,
+        "imageUrl": "p5.jpg",
+        "title": "NDA application support & development",
+        "description": "Support for the security application of a world famous corporation",
+        "lastUpdated": "September 2022 - March 2023"
+      },
+      {
+        "id": 4,
+        "imageUrl": "p3.jpg",
+        "title": "iEat - Food ordering and delivery application",
+        "description": "iEat application provides login features, loading products to menu, adding products to cart. Also it can setup profile info such as address, phone number, credit cards. After these steps it lets user to order food via application to the desired place",
+        "lastUpdated": "June 2022"
+      },
+      {
+        "id": 4,
+        "imageUrl": "p4.jpg",
+        "title": "WearPlan - System for integration with clothes shops and customers",
+        "description": "Bachelor graduation project, Includes Angular Shop website for shops and customers, MS SQL database, iOS application for customers shopping, Scanning and tracking devices powered with Arduino to adjust customers attention and walk trajectory through shop section to increase sales percentage.",
+        "lastUpdated": "June 2022"
+      }
+  ]
+  
