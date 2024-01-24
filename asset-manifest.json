@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.97a28485.css",
-    "main.js": "/website/static/js/main.6d589176.js",
-    "static/js/787.0894cbc5.chunk.js": "/website/static/js/787.0894cbc5.chunk.js",
+    "main.js": "/website/static/js/main.f34f78e2.js",
+    "static/js/787.e869382d.chunk.js": "/website/static/js/787.e869382d.chunk.js",
     "static/media/Ihor_Vasyliev_CV.pdf": "/website/static/media/Ihor_Vasyliev_CV.fff69a33a3e409301dc9.pdf",
     "static/media/portfolio-details.jpg": "/website/static/media/portfolio-details.ea8c2e2a37007e2b788c.jpg",
     "static/media/p2.jpg": "/website/static/media/p2.be62b323e0eb9a7ccfbe.jpg",
@@ -17,11 +17,11 @@
     "static/media/p3.jpg": "/website/static/media/p3.dcdc88a8cada1867ce71.jpg",
     "index.html": "/website/index.html",
     "main.97a28485.css.map": "/website/static/css/main.97a28485.css.map",
-    "main.6d589176.js.map": "/website/static/js/main.6d589176.js.map",
-    "787.0894cbc5.chunk.js.map": "/website/static/js/787.0894cbc5.chunk.js.map"
+    "main.f34f78e2.js.map": "/website/static/js/main.f34f78e2.js.map",
+    "787.e869382d.chunk.js.map": "/website/static/js/787.e869382d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97a28485.css",
-    "static/js/main.6d589176.js"
+    "static/js/main.f34f78e2.js"
   ]
 }
