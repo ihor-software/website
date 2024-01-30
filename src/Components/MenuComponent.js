@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import '../style/css/style.css';
 import '../style/css/bootstrap.css';
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
+
 
 const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const {pathname} = useLocation();
+
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [ pathname ]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -13,21 +19,14 @@ const Menu = () => {
       <div className="main_menu">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container">
-            {/* Brand and toggle get grouped for better mobile display */}
             <button
-                className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded={isMenuOpen ? 'true' : 'false'}
-                aria-label="Toggle navigation"
-                onClick={toggleMenu}
-            >
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
+          className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
+          type="button"
+          onClick={toggleMenu}
+        >
+          {/* Default Bootstrap hamburger icon */}
+          <span className="navbar-toggler-icon"></span>
+        </button>
             {/* Collect the nav links, forms, and other content for toggling */}
             <div className={`collapse navbar-collapse offset ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
               <ul className="nav navbar-nav menu_nav justify-content-end">
