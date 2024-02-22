@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.97a28485.css",
-    "main.js": "/website/static/js/main.7842ee19.js",
+    "main.js": "/website/static/js/main.d2358a20.js",
     "static/js/787.0894cbc5.chunk.js": "/website/static/js/787.0894cbc5.chunk.js",
     "static/media/Ihor_Vasyliev_CV.pdf": "/website/static/media/Ihor_Vasyliev_CV.fff69a33a3e409301dc9.pdf",
     "static/media/ieat.png": "/website/static/media/ieat.51e1fdd2bd9167a37c9a.png",
@@ -12,11 +12,11 @@
     "static/media/nda.png": "/website/static/media/nda.a1c972f3a5ee8d3092f4.png",
     "index.html": "/website/index.html",
     "main.97a28485.css.map": "/website/static/css/main.97a28485.css.map",
-    "main.7842ee19.js.map": "/website/static/js/main.7842ee19.js.map",
+    "main.d2358a20.js.map": "/website/static/js/main.d2358a20.js.map",
     "787.0894cbc5.chunk.js.map": "/website/static/js/787.0894cbc5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97a28485.css",
-    "static/js/main.7842ee19.js"
+    "static/js/main.d2358a20.js"
   ]
 }
