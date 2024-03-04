@@ -27,8 +27,9 @@ const Menu = () => {
           {/* Default Bootstrap hamburger icon */}
           <span className="navbar-toggler-icon"></span>
         </button>
+        <span className="navbar-brand">Ihor Vasyliev Software Development</span>
             {/* Collect the nav links, forms, and other content for toggling */}
-            <div className={`collapse navbar-collapse offset ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
+            <div className={`collapse navbar-collapse offset flex-row-reverse ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
               <ul className="nav navbar-nav menu_nav justify-content-end">
               <li className="nav-item" >
                 <Link to="/website" className='nav-link'>Home</Link>

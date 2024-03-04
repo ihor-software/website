@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
+import FooterComponent from '../Components/FooterComponent';
+
 
 function PrivacyPage() {
     return (
-<div></div>
+<div>
+<FooterComponent/>
+</div>
     );
 }
 
