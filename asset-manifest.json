@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.97a28485.css",
-    "main.js": "/website/static/js/main.d2358a20.js",
+    "main.css": "/website/static/css/main.f841486e.css",
+    "main.js": "/website/static/js/main.2809244f.js",
     "static/js/787.0894cbc5.chunk.js": "/website/static/js/787.0894cbc5.chunk.js",
     "static/media/Ihor_Vasyliev_CV.pdf": "/website/static/media/Ihor_Vasyliev_CV.fff69a33a3e409301dc9.pdf",
     "static/media/ieat.png": "/website/static/media/ieat.51e1fdd2bd9167a37c9a.png",
@@ -9,14 +9,21 @@
     "static/media/doctoo.png": "/website/static/media/doctoo.e5d039788957c69707e6.png",
     "static/media/linkcollector.png": "/website/static/media/linkcollector.8ae60d56214298995863.png",
     "static/media/about-us.png": "/website/static/media/about-us.b89e4185d728718f1687.png",
+    "static/media/freelancehunt.png": "/website/static/media/freelancehunt.7248cf87520acd024d66.png",
     "static/media/nda.png": "/website/static/media/nda.a1c972f3a5ee8d3092f4.png",
+    "static/media/djinni.png": "/website/static/media/djinni.2da0ba66ab345933da07.png",
+    "static/media/telegram.png": "/website/static/media/telegram.66a06c6dba339eed2d00.png",
+    "static/media/contact.jpg": "/website/static/media/contact.2ef97fa438b8ab6e22e0.jpg",
+    "static/media/mail.png": "/website/static/media/mail.b7aaa1b49626713cd15b.png",
+    "static/media/upwork.png": "/website/static/media/upwork.b292cb67596337b51e1a.png",
+    "static/media/linkedin.png": "/website/static/media/linkedin.bd79a82fc857836900a6.png",
     "index.html": "/website/index.html",
-    "main.97a28485.css.map": "/website/static/css/main.97a28485.css.map",
-    "main.d2358a20.js.map": "/website/static/js/main.d2358a20.js.map",
+    "main.f841486e.css.map": "/website/static/css/main.f841486e.css.map",
+    "main.2809244f.js.map": "/website/static/js/main.2809244f.js.map",
     "787.0894cbc5.chunk.js.map": "/website/static/js/787.0894cbc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97a28485.css",
-    "static/js/main.d2358a20.js"
+    "static/css/main.f841486e.css",
+    "static/js/main.2809244f.js"
   ]
 }
