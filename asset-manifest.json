@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/website/static/css/main.f841486e.css",
-    "main.js": "/website/static/js/main.2809244f.js",
+    "main.js": "/website/static/js/main.fc5c7a88.js",
     "static/js/787.0894cbc5.chunk.js": "/website/static/js/787.0894cbc5.chunk.js",
-    "static/media/Ihor_Vasyliev_CV.pdf": "/website/static/media/Ihor_Vasyliev_CV.fff69a33a3e409301dc9.pdf",
     "static/media/ieat.png": "/website/static/media/ieat.51e1fdd2bd9167a37c9a.png",
     "static/media/wearplan.png": "/website/static/media/wearplan.17f90688346cae719da9.png",
     "static/media/doctoo.png": "/website/static/media/doctoo.e5d039788957c69707e6.png",
+    "static/media/Ihor_Vasyliev_CV.pdf": "/website/static/media/Ihor_Vasyliev_CV.7f05e54d66022c639e26.pdf",
     "static/media/linkcollector.png": "/website/static/media/linkcollector.8ae60d56214298995863.png",
     "static/media/about-us.png": "/website/static/media/about-us.b89e4185d728718f1687.png",
     "static/media/freelancehunt.png": "/website/static/media/freelancehunt.7248cf87520acd024d66.png",
@@ -19,11 +19,11 @@
     "static/media/linkedin.png": "/website/static/media/linkedin.bd79a82fc857836900a6.png",
     "index.html": "/website/index.html",
     "main.f841486e.css.map": "/website/static/css/main.f841486e.css.map",
-    "main.2809244f.js.map": "/website/static/js/main.2809244f.js.map",
+    "main.fc5c7a88.js.map": "/website/static/js/main.fc5c7a88.js.map",
     "787.0894cbc5.chunk.js.map": "/website/static/js/787.0894cbc5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f841486e.css",
-    "static/js/main.2809244f.js"
+    "static/js/main.fc5c7a88.js"
   ]
 }
