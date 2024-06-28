@@ -3,7 +3,6 @@ import '../style/css/style.css';
 import '../style/css/bootstrap.css';
 import FooterComponent from '../Components/FooterComponent';
 import image from '../img/about-us.png';
-
 import CarouselComponent from '../Components/CaruselComponent';
 
 function HomePage() {
@@ -16,7 +15,7 @@ function HomePage() {
                         <div class="row">
                             <div class="col-lg-7">
                                 <div class="banner_content">
-                                    <h3 class="text-uppercase">Hell0</h3>
+                                    <h3 class="text-uppercase">Hello</h3>
                                     <h1 class="text-uppercase">I am Ihor Vasyliev</h1>
                                     <h5 class="text-uppercase">Web Developer</h5>
                                     <div class="d-flex align-items-center">

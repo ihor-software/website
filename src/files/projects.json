@@ -1,34 +1,41 @@
 [
+  {
+    "id": 1,
+    "imageUrl": "scantechnic.png",
+    "title": "Scantechnic device managment tool",
+    "description": "System utilizing a modified LSTM model for detecting complex anomalies on data from physical devices in IOT. The model captures temperature anomalies in IoT device data and regulates these anomalies with a fan. The system implements a modified algorithm and real-time monitoring and control interfaces for IoT devices that contribute to data protection in IoT.",
+    "lastUpdated": "September 2023"
+  },
     {
-      "id": 1,
+      "id": 2,
       "imageUrl": "doctoo.png",
       "title": "Doctoo Healthcare React project",
-      "description": "health system for hospitals, patients and doctors. Technologies: NodeJS, Express/NestJS, REST, Swagger, React, Tailwind CSS, JWT, PostgreSQL, Docker",
+      "description": "Health system for hospitals, patients and doctors. Technologies: NodeJS, Express/NestJS, REST, Swagger, React, Tailwind CSS, JWT, PostgreSQL, Docker",
       "lastUpdated": "September 2023"
     },
     {
-      "id": 2,
+      "id": 3,
       "imageUrl": "linkcollector.png",
       "title": "LinkCollector Swift/SwiftUI Application",
       "description": "Application for storing and managing internet resources and links. Used firebase, multithreading to provide best user experience in storing most valuable links safely",
       "lastUpdated": "May 2023"
     },
     {
-        "id": 3,
+        "id": 4,
         "imageUrl": "nda.png",
         "title": "NDA application support & development",
         "description": "Support for the security application of a world famous corporation",
         "lastUpdated": "September 2022 - March 2023"
       },
       {
-        "id": 4,
+        "id": 5,
         "imageUrl": "ieat.png",
         "title": "iEat - Food ordering and delivery application",
         "description": "iEat application provides login features, loading products to menu, adding products to cart. Also it can setup profile info such as address, phone number, credit cards. After these steps it lets user to order food via application to the desired place",
         "lastUpdated": "June 2022"
       },
       {
-        "id": 4,
+        "id": 6,
         "imageUrl": "wearplan.png",
         "title": "WearPlan - System for integration with clothes shops and customers",
         "description": "Bachelor graduation project, Includes Angular Shop website for shops and customers, MS SQL database, iOS application for customers shopping, Scanning and tracking devices powered with Arduino to adjust customers attention and walk trajectory through shop section to increase sales percentage.",
