@@ -8,7 +8,7 @@ import doctoo from '../img/portfolio/doctoo.png';
 import rider from '../img/other/rider.gif';
 import gas from '../img/other/accelerator.png';
 import brake from '../img/other/brake.png';
-import '../style/css/style.css'; // Ensure this path is correct
+import '../style/css/style.css'; 
 
 const slides = [wearplan, nda, doctoo];
 

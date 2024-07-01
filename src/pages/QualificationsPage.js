@@ -1,13 +1,15 @@
 //education, completed courses
 import React, { useState } from 'react';
 import FooterComponent from '../Components/FooterComponent';
+import QualificationListComponent from '../Components/QualificationListComponent';
 
 
 function QualificationsPage() {
     return (
-<div>
-<FooterComponent/>
-</div>
+        <div>
+            <QualificationListComponent />
+            <FooterComponent />
+        </div>
     );
 }
 

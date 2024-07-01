@@ -11,6 +11,7 @@ import PrivacyPage from "./pages/PrivacyPage.js";
 import QualificationsPage from "./pages/QualificationsPage.js";
 import ConceptsPage from "./pages/ConceptsPage.js";
 import ResearchesPage from "./pages/ResearchesPage.js";
+import LifelinePage from "./pages/LifelinePage.js";
 
 // import NoPage from "./pages/NoPage";
 
@@ -21,12 +22,13 @@ export default function App() {
         <Route path="/" element={<Menu />}>
           <Route index path="website" element={<HomePage />} />
           <Route path="applications" element={<ApplicationsPage />} />
+          <Route path="lifeline" element={<LifelinePage />} />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="cv" element={<CVPage />} />
           <Route path="qualifications" element={<QualificationsPage />} />
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="contacts" element={<ContactsPage />} />
-          <Route path="concepts" element={<ConceptsPage />} />
+          {/* <Route path="concepts" element={<ConceptsPage />} /> */}
           <Route path="researches" element={<ResearchesPage />} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>

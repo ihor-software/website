@@ -37,6 +37,9 @@ const Menu = () => {
                 <li className="nav-item">
                 <Link to="/applications" className='nav-link'>Applications</Link>
                   </li>
+                  <li className="nav-item">
+                <Link to="/lifeline" className='nav-link'>Lifeline</Link>
+                  </li>
                 <li className="nav-item">
                 <Link to="/portfolio" className='nav-link'>Portfolio</Link>
                 </li>
@@ -52,9 +55,9 @@ const Menu = () => {
                 <li className="nav-item">
                 <Link to="/contacts" className='nav-link'>Contacts</Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                 <Link to="/concepts" className='nav-link'>Concepts</Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                 <Link to="/researches" className='nav-link'>Researches</Link>
                 </li>

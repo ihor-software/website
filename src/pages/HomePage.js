@@ -7,9 +7,9 @@ import CarouselComponent from '../Components/CaruselComponent';
 
 function HomePage() {
     return (
-            <div className="HomePage">
-                {/* Start Header Area */}
-                <section class="home_banner_area">
+        <div className="HomePage">
+            {/* Start Header Area */}
+            <section class="home_banner_area">
                 <div class="banner_inner">
                     <div class="container">
                         <div class="row">
@@ -27,7 +27,7 @@ function HomePage() {
                             <div class="col-lg-5">
                                 <div class="home_right_img">
                                     <img class="" src={image} alt="" width="400" height="400"></img>
-                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -37,51 +37,51 @@ function HomePage() {
             <section class="services">
                 <div class="services_inner">
                     <div class="container">
-                    <h2> How can I help you?</h2>
-                      <ul>
-                          <li>Web Development</li>
-                          <li>Mobile Development</li>
-                          <li>Test Coverage</li>
-                          <li>Project Support</li>
-                          <li>Hosting Solutions</li>
-                      </ul>
+                        <h2> How can I help you?</h2>
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Mobile Development</li>
+                            <li>Test Coverage</li>
+                            <li>Project Support</li>
+                            <li>Hosting Solutions</li>
+                        </ul>
                     </div>
                 </div>
-              </section>
-<br/>
-            
+            </section>
+            <br />
+
             <section class="slider">
                 <div class="slider_inner">
                     <div class="container">
-                    <h2>My projects:</h2>
-                    <CarouselComponent />
+                        <h2>My projects:</h2>
+                        <CarouselComponent />
                     </div>
-                  </div>
+                </div>
             </section>
-<br/>
+            <br />
             <section class="aboutme">
                 <div class="container">
                     <h2>About me:</h2>
                     <p>Hey, I'm Ihor, a seasoned web developer with expertise in crafting both websites and mobile applications. My professional journey has involved working with high-profile clients in diverse IT environments, where I've thrived under pressure and stringent deadlines, incorporating best coding practices gleaned from those experiences.
 
-I have a robust background, having collaborated with a top-10 global IT company, contributing to the development of new features, enhancing authorization security, and conducting thorough testing. When engaged with clients, I approach projects with meticulous attention to detail, striving to deliver a product that surpasses expectations.
+                        I have a robust background, having collaborated with a top-10 global IT company, contributing to the development of new features, enhancing authorization security, and conducting thorough testing. When engaged with clients, I approach projects with meticulous attention to detail, striving to deliver a product that surpasses expectations.
 
-I believe in a friendly and professional collaboration, and I'm eager to discuss how I can contribute to the success of your project. Feel free to reach out, and let's embark on this journey together!</p>
+                        I believe in a friendly and professional collaboration, and I'm eager to discuss how I can contribute to the success of your project. Feel free to reach out, and let's embark on this journey together!</p>
                 </div>
             </section>
-<br/>
-            
-              <section class="value">
+            <br />
+
+            <section class="value">
                 <div class="container">
                     <h2>How I work:</h2>
-              One of my key strengths lies in my commitment to high responsibility and maintaining a stable workflow. This dedication ensures a consistently smooth project development process and a reliable, predictable outcome. I prioritize transparent communication, fostering an open dialogue for negotiations before initiating any work. Additionally, I occasionally offer afterpay options, providing flexibility based on the satisfaction of the final result.
+                    One of my key strengths lies in my commitment to high responsibility and maintaining a stable workflow. This dedication ensures a consistently smooth project development process and a reliable, predictable outcome. I prioritize transparent communication, fostering an open dialogue for negotiations before initiating any work. Additionally, I occasionally offer afterpay options, providing flexibility based on the satisfaction of the final result.
                 </div>
-             </section>
-             <br/>
-             <br/>
-    <FooterComponent/>
+            </section>
+            <br />
+            <br />
+            <FooterComponent />
         </div>
-      );
+    );
 }
 
 export default HomePage;

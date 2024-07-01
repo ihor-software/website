@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "date": "Sep 2018 – Jun 2022",
+      "title": "Bachelor of Computer Science, Kharkiv National University of Radio Electronics",
+      "description": "I studied: JS development & algorithmical thinking, discrete math, software development practises, .Net developing, .Net Core developing, Windows forms, advanced algorithms, architecture pa]erns, database management, building advanced sql queries, networking protocols, debugging and prototyping network, websites development, websites hos?ng, javascript frameworks(React, Angular), iOT, Mobile development(iOS, Android), High standard industry projects(including several user roles, complex database design, innova?ve algorithm development, and linking mul?ple pla^orms to work in one system as one whole, such as iOT smart device, mobile applica?on, and Desktop/Website application.All of those has access to internet and can be sold as a system for a tech company or to a chain of stores in my case)."
+    },
+      {
+        "id": 2,
+        "date": "Sep 2022 – Jun 2024",
+        "title": "Master of Computer Science, Kharkiv National University of Radio Electronics",
+        "description": "I studied: Tests coverage, tests automation, computer vision, advanced math, system optmizaton, graphs, scientific researches, business management, probability theory, philosophy, function optmization, developing algorithms, big data, neural networks, embedding AI functions in software."
+      }
+    ]
+    
