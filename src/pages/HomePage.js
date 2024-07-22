@@ -9,7 +9,6 @@ import work from '../img/other/work.gif';
 import doctoo from '../img/portfolio/doctoo.png';
 import wearplan from '../img/portfolio/wearplan.png';
 import scantechnic from '../img/portfolio/scantechnic.png';
-import CarouselComponent from '../Components/CaruselComponent';
 import ServicesComponent from '../Components/ServicesComponent';
 import TechnologiesComponent from '../Components/TechnologiesComponent';
 import PolaroidComponent from '../Components/PolaroidComponent';
