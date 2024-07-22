@@ -2,31 +2,60 @@ import React from 'react';
 import '../style/css/style.css';
 import '../style/css/bootstrap.css';
 import FooterComponent from '../Components/FooterComponent';
-import image from '../img/about-us.png';
+import avatar from '../img/about-us.png';
+import rider from '../img/other/rider.gif';
+import workout from '../img/other/workout.gif';
+import work from '../img/other/work.gif';
+import doctoo from '../img/portfolio/doctoo.png';
+import wearplan from '../img/portfolio/wearplan.png';
+import scantechnic from '../img/portfolio/scantechnic.png';
 import CarouselComponent from '../Components/CaruselComponent';
+import ServicesComponent from '../Components/ServicesComponent';
+import TechnologiesComponent from '../Components/TechnologiesComponent';
+import PolaroidComponent from '../Components/PolaroidComponent';
 
 function HomePage() {
+    const technologies = [
+        'C# / .Net Core /ASP.NET',
+        'SQL, SQL Query, PostgreSQL, MSSQL, MySQL',
+        'Firebase, Git, C++',
+        'React, Angular, TypeScript, JavaScript',
+        'PHP, HTML, CSS, SCSS, Bootstrap, NodeJS, Express, NestJS',
+        'REST, Swagger, Redux, Tailwind, Storybook',
+        'Chromatic, RabbitMQ, JWT, Sequelize, Redis',
+        'Docker, Objective-C, Swift, SQLite, CoreData',
+        'Android, Unit Testing, UI Testing, Jest, Selenium',
+        'Test Automation, Logger, Big O, MVC, MVVM, VIPER',
+        'Python, Flask, ScikitLearn, Arduino, IoT',
+        'Big Data, Observer, Reactive Programming, Jenkins'
+    ];
+
+    const projects = [
+        { url: wearplan, title: 'Wearplan', date: '2024-07-01' },
+        { url: doctoo, title: 'Doctoo', date: '2024-07-02' },
+        { url: scantechnic, title: 'Scantechnic', date: '2024-07-03' },
+    ];
+
     return (
         <div className="HomePage">
-            {/* Start Header Area */}
-            <section class="home_banner_area">
-                <div class="banner_inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <div class="banner_content">
-                                    <h3 class="text-uppercase">Hello</h3>
-                                    <h1 class="text-uppercase">I am Ihor Vasyliev</h1>
-                                    <h5 class="text-uppercase">Web Developer</h5>
-                                    <div class="d-flex align-items-center">
-                                        <a type="button" class="btn btn-primary" href="/contacts"><span>Hire Me</span></a>
-                                        <a type="button" class="btn btn-primary" href="/cv"><span>Get CV</span></a>
+            <section className="home_info_area">
+                <div className="banner_inner">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-7">
+                                <div className="banner_content">
+                                    <h3 className="text-uppercase">Hello</h3>
+                                    <h1 className="text-uppercase">I am Ihor Vasyliev</h1>
+                                    <h5 className="text-uppercase">software engineer</h5>
+                                    <div className="d-flex align-items-center">
+                                        <a type="button" className="btn btn-primary" href="mailto:ihor-software@gmail.com"><span>Email Me</span></a>
+                                        <a type="button" className="btn btn-primary" href="/cv"><span>Get CV</span></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-5">
-                                <div class="home_right_img">
-                                    <img class="" src={image} alt="" width="400" height="400"></img>
+                            <div className="col-lg-5">
+                                <div className="home_right_img">
+                                    <img src={avatar} alt="" width="400" height="400" />
                                 </div>
                             </div>
                         </div>
@@ -34,49 +63,70 @@ function HomePage() {
                 </div>
             </section>
 
-            <section class="services">
-                <div class="services_inner">
-                    <div class="container">
-                        <h2> How can I help you?</h2>
-                        <ul>
-                            <li>Web Development</li>
-                            <li>Mobile Development</li>
-                            <li>Test Coverage</li>
-                            <li>Project Support</li>
-                            <li>Hosting Solutions</li>
-                        </ul>
+            <section className="home_info_area">
+                <div className="banner_inner">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-5">
+                                <div className="home_right_img">
+                                    <img src={rider} alt="" width="400" height="300" />
+                                </div>
+                            </div>
+                            <div className="col-lg-7">
+                                <div className="services_box">
+                                    <h3 className="text-uppercase">My Services</h3>
+                                    <h5 className="text-uppercase">
+                                        <ServicesComponent />
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <br />
 
-            <section class="slider">
-                <div class="slider_inner">
-                    <div class="container">
-                        <h2>My projects:</h2>
-                        <CarouselComponent />
+            <section className="home_info_area">
+                <div className="banner_inner">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="tech_stack">
+                                    <h3 className="text-uppercase">My Skills</h3>
+                                    <h5 className="text-uppercase">
+                                        <TechnologiesComponent technologies={technologies} />
+                                    </h5>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="home_right_img">
+                                    <img src={workout} alt="" width="400" height="400" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <br />
-            <section class="aboutme">
-                <div class="container">
-                    <h2>About me:</h2>
-                    <p>Hey, I'm Ihor, a seasoned web developer with expertise in crafting both websites and mobile applications. My professional journey has involved working with high-profile clients in diverse IT environments, where I've thrived under pressure and stringent deadlines, incorporating best coding practices gleaned from those experiences.
 
-                        I have a robust background, having collaborated with a top-10 global IT company, contributing to the development of new features, enhancing authorization security, and conducting thorough testing. When engaged with clients, I approach projects with meticulous attention to detail, striving to deliver a product that surpasses expectations.
-
-                        I believe in a friendly and professional collaboration, and I'm eager to discuss how I can contribute to the success of your project. Feel free to reach out, and let's embark on this journey together!</p>
+            <section className="home_info_area">
+                <div className="banner_inner">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-5">
+                                <div className="home_right_img">
+                                    <img src={work} alt="" width="500" height="500" />
+                                </div>
+                            </div>
+                            <div className="col-lg-7">
+                                <div className="services_box">
+                                    <h3 className="text-uppercase" style={{ textAlign: 'center', padding: '20px' }}>Past Projects</h3>
+                                    <PolaroidComponent photos={projects} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <br />
 
-            <section class="value">
-                <div class="container">
-                    <h2>How I work:</h2>
-                    One of my key strengths lies in my commitment to high responsibility and maintaining a stable workflow. This dedication ensures a consistently smooth project development process and a reliable, predictable outcome. I prioritize transparent communication, fostering an open dialogue for negotiations before initiating any work. Additionally, I occasionally offer afterpay options, providing flexibility based on the satisfaction of the final result.
-                </div>
-            </section>
             <br />
             <br />
             <FooterComponent />

@@ -6,10 +6,10 @@ import FooterComponent from '../Components/FooterComponent';
 
 function PortfolioPage() {
     return (
-<div class="container">
-      <CardList />
-      <FooterComponent/>
-</div>
+        <div class="container">
+            <CardList />
+            <FooterComponent />
+        </div>
     );
 }
 
