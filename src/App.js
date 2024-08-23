@@ -12,8 +12,7 @@ import QualificationsPage from "./pages/QualificationsPage.js";
 import ConceptsPage from "./pages/ConceptsPage.js";
 import ResearchesPage from "./pages/ResearchesPage.js";
 import LifelinePage from "./pages/LifelinePage.js";
-
-// import NoPage from "./pages/NoPage";
+import ProductsPage from "./pages/ProductsPage.tsx"
 
 export default function App() {
   return (
@@ -28,7 +27,7 @@ export default function App() {
           <Route path="qualifications" element={<QualificationsPage />} />
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="contacts" element={<ContactsPage />} />
-          {/* <Route path="concepts" element={<ConceptsPage />} /> */}
+          <Route path="products" element={<ProductsPage />} />
           <Route path="researches" element={<ResearchesPage />} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
